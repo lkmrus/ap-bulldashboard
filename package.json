@@ -1,0 +1,24 @@
+{
+  "name": "bull-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "author": "Ruslan Lukmanov",
+  "scripts": {
+    "start:dev": "nodemon",
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "@bull-board/api": "3.6.0",
+    "@bull-board/fastify": "^3.6.0",
+    "bullmq": "^1.48.2",
+    "fastify": "3.22.0",
+    "ioredis": "^4.27.9",
+    "yaml": "^2.1.1"
+  },
+  "devDependencies": {
+    "merge-deep": "^3.0.3",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.7.1"
+  }
+}
